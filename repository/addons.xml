@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+	<addon
+        id="plugin.audio.ukexpatradio"
+        name="UK Expat Radio"
+        version="1.0.0"
+        provider-name="coldkeys">
+		<requires>
+			<import addon="xbmc.python"             	version="2.1.0"/>
+			<import addon="xbmc.addon"              	version="12.1.0"/>
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="default.py">
+			<provides>audio</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en">UK Expat Radio</summary>
+			<description lang="en">Tune in to the best UK radio stations on the net.</description>
+			<disclaimer lang="en">I do not own or publish the content delivered by the plugin. Email coldkeys@outlook.com if any stations fail or you would like a personal Radio addon. Only tested in Turkey :-)
+			In order to appreciate the backgrounds it is best to have no visualization or use Waveform.</disclaimer>
+			<platform>all</platform>
+			<license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
+			<language>en</language>
+			<forum></forum>
+			<website>http://www.mygoldmusic.co.uk/</website>
+			<email></email>
+			<source>http://www.mygoldmusic.co.uk/</source>
+		</extension>
+	</addon>
+
+<addon id="plugin.video.documentarytube"
+	name="DocumentaryTube"
+	version="1.0.0"
+	provider-name="coldkeys">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Documentaries</summary>
+    <description lang="en">Thousands of Documentaries on YouTube. Including Richard Attenborough, Nat Geo, BBC, PBS - Nova, How Its Made, Bear Grylls, Bush Tucker Man, Tanked, Grand Designs and many more.</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.historytube"
+	name="History Tube"
+	version="1.0.0"
+	provider-name="coldkeys">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">History Documentary Videos on YouTube</summary>
+    <description lang="en">Thousands of documentary videos on YouTube.</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.jesseventura"
+	name="Jesse Ventura on YouTube"
+	version="1.0.0"
+	provider-name="coldkeys">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Jesse Ventura on YouTube</summary>
+    <description lang="en">Jesse Ventura Commentaries and documentaries on YouTube</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.kids-tube"
+	name="Kids Tube"
+	version="1.0.1"
+	provider-name="coldkeys">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Kids Tube</summary>
+    <description lang="en">YouTube Channels of Fun and Educational videos for kids</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.kodihelp"
+	name="Kodi Help"
+	version="1.0.0"
+	provider-name="coldkeys">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Kodi Help</summary>
+    <description lang="en">Kodi Tips, Tricks and Tutorials</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.mosthaunted"
+	name="Most Haunted"
+	version="1.0.0"
+	provider-name="coldkeys">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Most Haunted</summary>
+    <description lang="en">Most Episodes of the UK TV program Most Haunted</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.movieyoutube"
+	name="Movies on YouTube"
+	version="1.0.0"
+	provider-name="coldkeys">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Movie Channels addon</summary>
+    <description lang="en">Movie Channels on YouTube.</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.outofthisworld"
+	name="Out of this World"
+	version="1.1.0"
+	provider-name="coldkeys">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Out of this World</summary>
+    <description lang="en">Documentary youtube channels.</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.talesfromthecrypt"
+	name="Tales from the Crypt"
+	version="1.0.0"
+	provider-name="coldkeys">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Tales from the Crypt</summary>
+    <description lang="en">All 93 Episodes of the cult classic series Tales from the Crypt, plus 3 Movies, Soundtracks and Extras, complete Tales From The Cryptkeeper cartoon. Bonus channel 92 episodes subtitled in Spanish.</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.yt-comedy"
+	name="Classic British Comedy"
+	version="1.0.0"
+	provider-name="coldkeys">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Classic British Comedy</summary>
+    <description lang="en">Classic British Comedy, comedians, stand-up, series and films.</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.yt-cook"
+	name="Cooking on YouTube Volume 1"
+	version="1.0.0"
+	provider-name="coldkeys">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Cooking Videos on YouTube Volume 1</summary>
+    <description lang="en">Thousands of recipes and cooking how-to videos on YouTube Volume 1. 50 channels/playlists including Jamie Oliver, America's Test Kitchen, One Pot Chef Show, Food Wishes, Siu's Cooking (Chinese), Maangchi (Korean Cuisine), India Food Network, Gordon Ramsay and BBQ Pit Boys.</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.yt-cook2"
+	name="Cooking on YouTube Volume 2"
+	version="1.0.0"
+	provider-name="coldkeys">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Cooking Videos on YouTube Volume 2</summary>
+    <description lang="en">Thousands of recipes and cooking how-to videos on YouTube Volume 2. 50 channels/playlists including Sichuan,Cantonese and Hunan Cuisine, Rockin Robin's Cooking Mexican Recipes and The Frugal Chef.</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.yt-cook3"
+	name="Cooking on YouTube Volume 3"
+	version="1.0.0"
+	provider-name="coldkeys">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Cooking Videos on YouTube Volume 3</summary>
+    <description lang="en">Thousands of recipes and cooking how-to videos on YouTube Volume 3. Includes many Weight Watchers and Weight Watchers Points Plus Recipes. Diabetic and Gluten Free recipes, and many more!</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.yt-crime"
+	name="CrimeTube"
+	version="1.0.0"
+	provider-name="coldkeys">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">True Crime on YouTube</summary>
+    <description lang="en">A megamix of True Crime channels and playlists from YouTube, First 48, Serial Killers.</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.yt-naim"
+	name="Native American Indian Movies"
+	version="1.0.0"
+	provider-name="coldkeys">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Native American Indian Movies</summary>
+    <description lang="en">A selection of Native American Indian movies and documentaries on YouTube</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.yt-vevo"
+	name="Vevo Music Videos on YouTube"
+	version="1.0.2"
+	provider-name="coldkeys">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Music Videos from Vevo</summary>
+    <description lang="en">Vevo YouTube 25 Playlists and 25 Artists Vevo channels, access to 1000's of music videos.</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.ytsf"
+	name="Science Fiction Movies"
+	version="1.0.0"
+	provider-name="coldkeys">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Science Fiction Movies</summary>
+    <description lang="en">Science Fiction Movies on YouTube</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.ytwesterns"
+	name="Western Movies on YouTube"
+	version="1.0.1"
+	provider-name="coldkeys">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Western Movie Channels addon</summary>
+    <description lang="en">Western Movie Channels on YouTube.</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
+<addon id="repository.coldkeys" name="ColdKeys Repo" version="1.0.0" provider-name="husham.com">
+	<extension point="xbmc.addon.repository" name="ColdKeys Repository">
+		<info compressed="false">https://raw.githubusercontent.com/KodiColdkeys/coldkeys-addons/master/repository/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/KodiColdkeys/coldkeys-addons/master/repository/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/KodiColdkeys/coldkeys-addons/master/zip</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>The Husham.com Repo</summary>
+		<description>Download and install addons from husham.com repo</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+</addons>

@@ -25,11 +25,11 @@ YOUTUBE_CHANNEL_ID_3 = "PL152bjytsMC77DGLArw00z61LWsBXFQmj"
 YOUTUBE_CHANNEL_ID_4 = "PL152bjytsMC5Xi648qL0kMADk06InTqgG"
 YOUTUBE_CHANNEL_ID_5 = "UCsEv7pk3lgX0es3CAvKCYeQ"
 YOUTUBE_CHANNEL_ID_6 = "UC2FAMzBBVlhyOWMTc6SLFlw"
-YOUTUBE_CHANNEL_ID_7 = "BESTofDocumentaries"
+YOUTUBE_CHANNEL_ID_7 = "UCUR7DG5xaHpo1GyIPEGISIw"
 YOUTUBE_CHANNEL_ID_8 = "PLCldpz_Pc1FrGQLsaxaV0kVPqmXN_nanN"
 YOUTUBE_CHANNEL_ID_9 = "UCSulo8_9_xLwIyYhaEYFQag"
-YOUTUBE_CHANNEL_ID_10 = "AllHistories"
-YOUTUBE_CHANNEL_ID_11 = "RealCrusadeHistory"
+YOUTUBE_CHANNEL_ID_10 = "UCBsHVT_fAGIZG56oh8nWR_Q"
+YOUTUBE_CHANNEL_ID_11 = "UCpiumHmUE5EZeLTftxv9qGw"
 YOUTUBE_CHANNEL_ID_12 = "PL152bjytsMC5giQaRkK6f5xQC_2dvAeKb"
 YOUTUBE_CHANNEL_ID_13 = "PL152bjytsMC4dn12Yx7CyaIlyTXyfDdrD"
 YOUTUBE_CHANNEL_ID_14 = "PL152bjytsMC62UzE1wwOTWfVjRKGYTZvF"
@@ -57,13 +57,13 @@ YOUTUBE_CHANNEL_ID_35 = "PL152bjytsMC7UxxXcG2aVCPo_ItqZg-GB"
 YOUTUBE_CHANNEL_ID_36 = "PL152bjytsMC7HUL4K5EYsOrsn92JnUh0Z"
 YOUTUBE_CHANNEL_ID_37 = "PL152bjytsMC5GUmj1-v7VNWxDostRymeY"
 YOUTUBE_CHANNEL_ID_38 = "PL152bjytsMC4fprSWSah3KMbjvEjZU_5q"
-YOUTUBE_CHANNEL_ID_39 = "lunarmodule5"
+YOUTUBE_CHANNEL_ID_39 = "UC9joNm8jec_JdGF7UBFY2GA"
 YOUTUBE_CHANNEL_ID_40 = "PL152bjytsMC4YagWpnkcayYe7VwoiWv5V"
 YOUTUBE_CHANNEL_ID_41 = "PL152bjytsMC6xXamnNsrmDXaZetKL9EXH"
 YOUTUBE_CHANNEL_ID_42 = "PL152bjytsMC6PQ1x_B5JN2MEuTZwH-Y3R"
 YOUTUBE_CHANNEL_ID_43 = "PL152bjytsMC5jRx_eUEvTJKudxLOYZfXL"
 YOUTUBE_CHANNEL_ID_44 = "PL152bjytsMC4WcEI21ze2IfcAFRyxj8gi"
-YOUTUBE_CHANNEL_ID_45 = "archanth"
+YOUTUBE_CHANNEL_ID_45 = "UC8nk3dP5q5z_z60n0DRWgeQ"
 YOUTUBE_CHANNEL_ID_46 = "PL57C1E76348A209F3"
 YOUTUBE_CHANNEL_ID_47 = "UCgLTuWANjVycg1qYHYPxmnA"
 YOUTUBE_CHANNEL_ID_48 = "PL152bjytsMC4ELQL-cyB4HcR5RR4y8jmI"
@@ -135,7 +135,7 @@ def main_list(params):
     plugintools.add_item( 
         #action="", 
         title="BEST Documentaries",
-        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_7+"/",
+        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID_7+"/",
         thumbnail="https://yt3.ggpht.com/-iOouVWpX-g4/AAAAAAAAAAI/AAAAAAAAAAA/lN9Ozy9gO1s/s100-c-k-no/photo.jpg",
         folder=True )  
 
@@ -156,14 +156,14 @@ def main_list(params):
     plugintools.add_item( 
         #action="", 
         title="All Histories (check playlist)",
-        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_10+"/",
+        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID_10+"/",
         thumbnail="https://yt3.ggpht.com/-XWpJdd60KKo/AAAAAAAAAAI/AAAAAAAAAAA/0u1G_zV7dVE/s100-c-k-no/photo.jpg",
         folder=True )
 
     plugintools.add_item( 
         #action="", 
         title="Real Crusade History (check playlist)",
-        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_11+"/",
+        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID_11+"/",
         thumbnail="https://yt3.ggpht.com/-ScdZUgpB_Qg/AAAAAAAAAAI/AAAAAAAAAAA/Ng-3qq0ON7I/s100-c-k-no/photo.jpg",
         folder=True )    
 
@@ -359,7 +359,7 @@ def main_list(params):
     plugintools.add_item( 
         #action="", 
         title="Lunar Module 5 (Space Missions)",
-        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_39+"/",
+        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID_39+"/",
         thumbnail="https://yt3.ggpht.com/-fGf9PQsPPRc/AAAAAAAAAAI/AAAAAAAAAAA/uKc5JeHvKIg/s100-c-k-no/photo.jpg",
         folder=True ) 
 
@@ -401,7 +401,7 @@ def main_list(params):
     plugintools.add_item( 
         #action="", 
         title="Archanth (Check Playlists)",
-        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_45+"/",
+        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID_45+"/",
         thumbnail="https://yt3.ggpht.com/-ff2dkyZfaug/AAAAAAAAAAI/AAAAAAAAAAA/XyeiWj6IOps/s100-c-k-no/photo.jpg",
         folder=True )		
 

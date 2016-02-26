@@ -288,7 +288,7 @@ def main_list(params):
     plugintools.add_item( 
         #action="", 
         title="Meghan Trainor on VEVO",
-        url="plugin://plugin.video.youtube/user"+YOUTUBE_CHANNEL_ID_29+"/",
+        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_29+"/",
         thumbnail="https://i.ytimg.com/vi/EgqUJOudrcM/default.jpg",
         folder=True )
 

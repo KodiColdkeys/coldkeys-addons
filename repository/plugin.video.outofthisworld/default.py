@@ -19,52 +19,52 @@ addon = Addon(addonID, sys.argv)
 local = xbmcaddon.Addon(id=addonID)
 icon = local.getAddonInfo('icon')
 
-YOUTUBE_CHANNEL_ID_1 = "UFOTVstudios"
-YOUTUBE_CHANNEL_ID_2 = "thirdphaseofmoon"
-YOUTUBE_CHANNEL_ID_3 = "ProjectUFOs"
+YOUTUBE_CHANNEL_ID_1 = "UCaasFoY9yYQpOfL00N3nSxg"
+YOUTUBE_CHANNEL_ID_2 = "ELHBijOC70VvE"
+YOUTUBE_CHANNEL_ID_3 = "ELjOrxDVoNdU0"
 YOUTUBE_CHANNEL_ID_4 = "UCtwAqRfw901jAo9JbX3KEHQ"
-YOUTUBE_CHANNEL_ID_5 = "DiscloseTruthTV"
-YOUTUBE_CHANNEL_ID_6 = "DisclosureDiscovery"
-YOUTUBE_CHANNEL_ID_7 = "davidicke"
-YOUTUBE_CHANNEL_ID_8 = "MrTechinnovations"
+YOUTUBE_CHANNEL_ID_5 = "UCqi3K5TwaBC9l-YQzlRG0vg"
+YOUTUBE_CHANNEL_ID_6 = "UCk_foUwmaHeFhmAZMnEHQsw"
+YOUTUBE_CHANNEL_ID_7 = "PLfVuOg1h3Q1fTPmNkVFzjZJR-S2lw3s9H"
+YOUTUBE_CHANNEL_ID_8 = "UCuBPlZTF6TGO0g58QgcgsxA"
 YOUTUBE_CHANNEL_ID_9 = "UC4Q36FUg_NOHCpxoBv2wQ1g"
-YOUTUBE_CHANNEL_ID_10 = "DisclosureNation"
-YOUTUBE_CHANNEL_ID_11 = "NonHumanEntities"
+YOUTUBE_CHANNEL_ID_10 = "UCrgja_PWykEiFlaYvTjO44w"
+YOUTUBE_CHANNEL_ID_11 = "PLjP29lglo5DX-7AhAnZeS05UL9_FSEfk2"
 YOUTUBE_CHANNEL_ID_12 = "UCqLr8VyFA9qYPuGSLedT2RQ"
-YOUTUBE_CHANNEL_ID_13 = "thetruthrevealed777"
-YOUTUBE_CHANNEL_ID_14 = "iufoc"
-YOUTUBE_CHANNEL_ID_15 = "ParanormalMoviesful"
-YOUTUBE_CHANNEL_ID_16 = "DeepakChopraFan1"
-YOUTUBE_CHANNEL_ID_17 = "DiscoveryDisclosure"
+YOUTUBE_CHANNEL_ID_13 = "UCYphOE6nWQiZTmycQG-r-XA"
+YOUTUBE_CHANNEL_ID_14 = "PL152bjytsMC5Yujo0JumT9LsXVThaoR-V"
+YOUTUBE_CHANNEL_ID_15 = "UChz4wgDoVGWXw_Gpny8lhIA"
+YOUTUBE_CHANNEL_ID_16 = "PLxignttj5ONbui8lptBOk-H5Qg_KNHB8a"
+YOUTUBE_CHANNEL_ID_17 = "UC2na0DRywwQrXeodGmCt63Q"
 YOUTUBE_CHANNEL_ID_18 = "UCoawEOkPOrEYKnQs72RnQGw"
-YOUTUBE_CHANNEL_ID_19 = "HubbleSiteChannel"
-YOUTUBE_CHANNEL_ID_20 = "stevequaylefan"
-YOUTUBE_CHANNEL_ID_21 = "TheUFODocumentaries"
-YOUTUBE_CHANNEL_ID_22 = "UFOvni2012"
-YOUTUBE_CHANNEL_ID_23 = "FindingUFO"
+YOUTUBE_CHANNEL_ID_19 = "PLByjNzUI2UG5-bPFOhLh7T2LXL6ML2o5E"
+YOUTUBE_CHANNEL_ID_20 = "PLwhOBiXbYauOLQzNLsLzeLs0IkIfFuzuo"
+YOUTUBE_CHANNEL_ID_21 = "PLByjNzUI2UG5GKHN2k8gyxNP1bkKPFqK_"
+YOUTUBE_CHANNEL_ID_22 = "UCRDVBHaAnhAhh2ykJmFiu_g"
+YOUTUBE_CHANNEL_ID_23 = "UCNuf7nY3r6LrLWYONRGv-Xg"
 YOUTUBE_CHANNEL_ID_24 = "UCTKuGHAEZsc1Jb1oD2gaW6Q"
 YOUTUBE_CHANNEL_ID_25 = "UC_Fb75M4HSsNEwdxZwEXIJQ"
 YOUTUBE_CHANNEL_ID_26 = "PLmkjUS2UqPAOQn25fI5g9dCaQ0N-Vz758"
-YOUTUBE_CHANNEL_ID_27 = "TheAlexJonesChannel"
+YOUTUBE_CHANNEL_ID_27 = "UCvsye7V9psc-APX6wV1twLg"
 YOUTUBE_CHANNEL_ID_28 = "UCSLd3-nGt1fzcYhdh_0Nr0g"
 YOUTUBE_CHANNEL_ID_29 = "UCeRIjtKGM0XJugGWDvctxuA"
-YOUTUBE_CHANNEL_ID_30 = "AncientAliensRadio"
-YOUTUBE_CHANNEL_ID_31 = "PL152bjytsMC4vJUB8Jsnvb8qV-iM5ltp-"
+YOUTUBE_CHANNEL_ID_30 = "UCh-8xfXv8IF90d0SXHns84w"
+YOUTUBE_CHANNEL_ID_31 = "UCUkGG6gdLsGjMLf0RabZQZA"
 YOUTUBE_CHANNEL_ID_32 = "PL152bjytsMC7SbTJwZMofEBw9goAuyEBk"
-YOUTUBE_CHANNEL_ID_33 = "PL152bjytsMC7PfoHBRo-O88IuSJEbwu_Y"
-YOUTUBE_CHANNEL_ID_34 = "PL152bjytsMC7nsw4GXHtBHnhEmXhP5pBU"
-YOUTUBE_CHANNEL_ID_35 = "PL152bjytsMC4fYj4kF4Xy7EcdX-QouNlC"
-YOUTUBE_CHANNEL_ID_36 = "PL152bjytsMC6HJab4OHiCy1sZMnY3nQHJ"
-YOUTUBE_CHANNEL_ID_37 = "PL152bjytsMC6KxWlUEqZCAzMZK21TNYL4"
-YOUTUBE_CHANNEL_ID_38 = "PL152bjytsMC4QPzz-4aMoenXjziVZVsa3"
+YOUTUBE_CHANNEL_ID_33 = "UCjeYqGx0STkSM6iWknsDl3w"
+YOUTUBE_CHANNEL_ID_34 = "UCl0T0SKaV5rJU81F_QUCakw"
+YOUTUBE_CHANNEL_ID_35 = "UC7TvL4GlQyMBLlUsTrN_C4Q"
+YOUTUBE_CHANNEL_ID_36 = "UCvtTGZEcS8mbWdB7prg4QNw"
+YOUTUBE_CHANNEL_ID_37 = "UCxo1rU0PA2iSZHkeLO2iaZw"
+YOUTUBE_CHANNEL_ID_38 = "UCszHReYtzC5410p9h3xVWEA"
 YOUTUBE_CHANNEL_ID_39 = "UCGhbRSOWRoYVlPXX1haANKg"
 YOUTUBE_CHANNEL_ID_40 = "PLHjrRqyg8ug-ts0AjzUZGpwh9V08uN0i_"
-YOUTUBE_CHANNEL_ID_41 = "alienufodisclose"
+YOUTUBE_CHANNEL_ID_41 = "UCkJk30CLO4aJL11RIZsv5ow"
 YOUTUBE_CHANNEL_ID_42 = "PLAA6438176C65375F"
-YOUTUBE_CHANNEL_ID_43 = "insearchoftv"
+YOUTUBE_CHANNEL_ID_43 = "PLgrXpjC1QftsN4m06ZWsgppHcrJPO-J0I"
 YOUTUBE_CHANNEL_ID_44 = "PLYS2UP0Xbu_bzvxQe3XC5RqL-gVkRMmXt"
 YOUTUBE_CHANNEL_ID_45 = "PLlXFGABj3pT6tpo3XrJim2wlNWGjFmAfM"
-YOUTUBE_CHANNEL_ID_46 = "AnnunakiRadio"
+YOUTUBE_CHANNEL_ID_46 = "UCMZX83bHyIK064n_vLAGulw"
 YOUTUBE_CHANNEL_ID_47 = "PL152bjytsMC70EjJ86WiIvxfb-b4iR7Gn"
 YOUTUBE_CHANNEL_ID_48 = "PL152bjytsMC4bORPmQTpsfKTdDSA9Y_pr"
 YOUTUBE_CHANNEL_ID_49 = "PL152bjytsMC7tXBplCwvAS-aqL-uw72RF"
@@ -92,22 +92,22 @@ def main_list(params):
     plugintools.add_item( 
         #action="", 
         title=" UFOTV® The Disclosure Movie Network ",
-        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_1+"/",
+        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID_1+"/",
         thumbnail="https://yt3.ggpht.com/-LzxbTMc5jx8/AAAAAAAAAAI/AAAAAAAAAAA/oJYbn_2y4ec/s100-c-k-no/photo.jpg",
         folder=True )
 
     plugintools.add_item( 
         #action="", 
-        title="thirdphaseofmoon",
-        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_2+"/",
-        thumbnail="https://yt3.ggpht.com/-VngAwXZ40Ac/AAAAAAAAAAI/AAAAAAAAAAA/csSGfPEeepg/s100-c-k-no/photo.jpg",
+        title="UFOTV® Presents: Season 1",
+        url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_2+"/",
+        thumbnail="https://i.ytimg.com/sh/s24l0wQzvvE/showposter.jpg",
         folder=True )
 
     plugintools.add_item( 
         #action="", 
-        title="Project UFOs",
-        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_3+"/",
-        thumbnail="https://yt3.ggpht.com/-aANPcaWzCL8/AAAAAAAAAAI/AAAAAAAAAAA/-yp4POfzcYk/s100-c-k-no/photo.jpg",
+        title="UFOTV® Presents: Season 2",
+        url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_3+"/",
+        thumbnail="https://i.ytimg.com/sh/s24l0wQzvvE/showposter.jpg",
         folder=True )
 
     plugintools.add_item( 
@@ -120,34 +120,34 @@ def main_list(params):
     plugintools.add_item( 
         #action="", 
         title=" Disclose Truth TV ",
-        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_5+"/",
+        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID_5+"/",
         thumbnail="https://yt3.ggpht.com/-8QbaDb5gcG4/AAAAAAAAAAI/AAAAAAAAAAA/GLM9wpNMMkI/s100-c-k-no/photo.jpg",
         folder=True )
 
     plugintools.add_item( 
         #action="", 
-        title=" Disclosure Discovery ",
-        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_6+"/",
-        thumbnail="https://yt3.ggpht.com/-kvrUGWS4uBU/AAAAAAAAAAI/AAAAAAAAAAA/E4pMp5mZUWA/s100-c-k-no/photo.jpg",
+        title="GrahamHancockDotCom",
+        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID_6+"/",
+        thumbnail="https://yt3.ggpht.com/-y2ic0fpjshA/AAAAAAAAAAI/AAAAAAAAAAA/mqOsEI9dwXw/s100-c-k-no/photo.jpg",
         folder=True )                
 
     plugintools.add_item( 
         #action="", 
         title="David Icke",
-        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_7+"/",
+        url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_7+"/",
         thumbnail="https://yt3.ggpht.com/-6eMfz62QtOM/AAAAAAAAAAI/AAAAAAAAAAA/MZlIr7cR7V4/s100-c-k-no/photo.jpg",
         folder=True )  
 
     plugintools.add_item( 
         #action="", 
-        title=" Ancient Innovations ",
-        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_8+"/",
-        thumbnail="https://yt3.ggpht.com/-UTV1LvTy3EA/AAAAAAAAAAI/AAAAAAAAAAA/nJgVyoAoqS8/s100-c-k-no/photo.jpg",
+        title="Third Phase of the Moon",
+        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID_8+"/",
+        thumbnail="https://yt3.ggpht.com/-VngAwXZ40Ac/AAAAAAAAAAI/AAAAAAAAAAA/csSGfPEeepg/s100-c-k-no/photo.jpg",
         folder=True )
         
     plugintools.add_item( 
         #action="", 
-        title="  E.B.E Extraterrestrial Biological Entity ",
+        title="E.B.E Extraterrestrial Biological Entity",
         url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID_9+"/",
         thumbnail="https://yt3.ggpht.com/-xPwa4vxuwCs/AAAAAAAAAAI/AAAAAAAAAAA/KluzIqc3VQg/s100-c-k-no/photo.jpg",
         folder=True )
@@ -155,14 +155,14 @@ def main_list(params):
     plugintools.add_item( 
         #action="", 
         title="Disclosure Nation",
-        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_10+"/",
+        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID_10+"/",
         thumbnail="https://yt3.ggpht.com/-lfNeciUCA0o/AAAAAAAAAAI/AAAAAAAAAAA/BExVzsACKL0/s100-c-k-no/photo.jpg",
         folder=True )
 
     plugintools.add_item( 
         #action="", 
-        title="Non Human Entities",
-        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_11+"/",
+        title="Nibiru and Planet X",
+        url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_11+"/",
         thumbnail="https://yt3.ggpht.com/-WWM0lj8yQl0/AAAAAAAAAAI/AAAAAAAAAAA/pqSvMzo4nvY/s100-c-k-no/photo.jpg",
         folder=True )    
 
@@ -176,36 +176,36 @@ def main_list(params):
     plugintools.add_item( 
         #action="", 
         title="The Truth Revealed777",
-        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_13+"/",
+        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID_13+"/",
         thumbnail="https://yt3.ggpht.com/-5Hgv70lbKH4/AAAAAAAAAAI/AAAAAAAAAAA/vdSzmY69pR4/s100-c-k-no/photo.jpg",
         folder=True )  
 
     plugintools.add_item( 
         #action="", 
-        title="Mothership Productions",
-        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_14+"/",
-        thumbnail="https://yt3.ggpht.com/-qGSWZ81b36k/AAAAAAAAAAI/AAAAAAAAAAA/soPfYiUHP50/s100-c-k-no/photo.jpg",
+        title="*Aliens and UFOs",
+        url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_14+"/",
+        thumbnail="https://yt3.ggpht.com/-mtGNjrlpS78/AAAAAAAAAAI/AAAAAAAAAAA/0Ahp3_cJ5Yw/s100-c-k-no/photo.jpg",
         folder=True ) 
 		
     plugintools.add_item( 
         #action="", 
-        title="Paranormal Alien Movies",
-        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_15+"/",
-        thumbnail="https://yt3.ggpht.com/--LRjv3f2MTI/AAAAAAAAAAI/AAAAAAAAAAA/FPk6N7Ky2Ew/s100-c-k-no/photo.jpg",
+        title="Mystery/Alien/UFO/Paranormal Matters",
+        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID_15+"/",
+        thumbnail="https://yt3.ggpht.com/-X7D6WIEQtVg/AAAAAAAAAAI/AAAAAAAAAAA/x3AdzbtZKX0/s100-c-k-no/photo.jpg",
         folder=True )
 
     plugintools.add_item( 
         #action="", 
         title="Nibiru is Planet X 2015",
-        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_16+"/",
+        url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_16+"/",
         thumbnail="https://yt3.ggpht.com/-_VhIRKkteeM/AAAAAAAAAAI/AAAAAAAAAAA/aCfehLao6K4/s100-c-k-no/photo.jpg",
         folder=True )
 
     plugintools.add_item( 
         #action="", 
-        title="Discovery Disclosure",
-        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_17+"/",
-        thumbnail="https://yt3.ggpht.com/-5X-GguFNPto/AAAAAAAAAAI/AAAAAAAAAAA/DuUMGHSu2gM/s100-c-k-no/photo.jpg",
+        title="Project Camelot TV",
+        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID_17+"/",
+        thumbnail="https://yt3.ggpht.com/-ZzEy30oVJkw/AAAAAAAAAAI/AAAAAAAAAAA/r8SL1qhauNw/s100-c-k-no/photo.jpg",
         folder=True )
 
     plugintools.add_item( 
@@ -217,37 +217,37 @@ def main_list(params):
         
     plugintools.add_item( 
         #action="", 
-        title="Hubble Space Telescope",
-        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_19+"/",
-        thumbnail="https://yt3.ggpht.com/-Y09EJ1SfRDw/AAAAAAAAAAI/AAAAAAAAAAA/Q5cTt7J-bk4/s100-c-k-no/photo.jpg",
+        title="UFO Sightings",
+        url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_19+"/",
+        thumbnail="https://yt3.ggpht.com/-8hhmidKoi3w/AAAAAAAAAAI/AAAAAAAAAAA/OYhiVmCq8A8/s100-c-k-no/photo.jpg",
         folder=True )
 
     plugintools.add_item( 
         #action="", 
         title="Red Star Kachina",
-        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_20+"/",
+        url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_20+"/",
         thumbnail="https://yt3.ggpht.com/-WKXVsqHWLwE/AAAAAAAAAAI/AAAAAAAAAAA/jBse_B2BRns/s100-c-k-no/photo.jpg",
         folder=True )		
 
     plugintools.add_item( 
         #action="", 
-        title="The UFO Documentaries",
-        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_21+"/",
-        thumbnail="https://yt3.ggpht.com/-xfFNxVaHChM/AAAAAAAAAAI/AAAAAAAAAAA/NBIV0VQZgWA/s100-c-k-no/photo.jpg",
+        title="Alien Sightings",
+        url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_21+"/",
+        thumbnail="https://yt3.ggpht.com/-8hhmidKoi3w/AAAAAAAAAAI/AAAAAAAAAAA/OYhiVmCq8A8/s100-c-k-no/photo.jpg",
         folder=True )
 
     plugintools.add_item( 
         #action="", 
         title="UFOvni2012",
-        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_22+"/",
+        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID_22+"/",
         thumbnail="https://yt3.ggpht.com/-_7UcjcoUUcc/AAAAAAAAAAI/AAAAAAAAAAA/mPOtxNCw3ek/s100-c-k-no/photo.jpg",
         folder=True )
 
     plugintools.add_item( 
         #action="", 
-        title="Finding UFO",
-        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_23+"/",
-        thumbnail="https://yt3.ggpht.com/-80fACT-fyZk/AAAAAAAAAAI/AAAAAAAAAAA/6emQESOEoWM/s100-c-k-no/photo.jpg",
+        title="Alien Planet",
+        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID_23+"/",
+        thumbnail="https://yt3.ggpht.com/-kJoQ7T8i0a4/AAAAAAAAAAI/AAAAAAAAAAA/mZiXb59t0As/s100-c-k-no/photo.jpg",
         folder=True )
 
     plugintools.add_item( 
@@ -274,7 +274,7 @@ def main_list(params):
     plugintools.add_item( 
         #action="", 
         title="The Alex Jones Channel",
-        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_27+"/",
+        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID_27+"/",
         thumbnail="https://yt3.ggpht.com/-DbNegouDvyU/AAAAAAAAAAI/AAAAAAAAAAA/QyDM_-5eUFc/s100-c-k-no/photo.jpg",
         folder=True )
 
@@ -295,64 +295,64 @@ def main_list(params):
     plugintools.add_item( 
         #action="", 
         title="Ancient Aliens Radio",
-        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_30+"/",
+        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID_30+"/",
         thumbnail="https://yt3.ggpht.com/-ss6dyrKvhM8/AAAAAAAAAAI/AAAAAAAAAAA/10DZvKMWqO8/s100-c-k-no/photo.jpg",
         folder=True )		
 
     plugintools.add_item( 
         #action="", 
-        title="Ancient Aliens Season 1",
-        url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_31+"/",
-        thumbnail=icon,
+        title="Yolo Yokric - Aliens and UFOs",
+        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID_31+"/",
+        thumbnail="https://yt3.ggpht.com/-Kcn0YYFte6A/AAAAAAAAAAI/AAAAAAAAAAA/Ro6jNZlonZo/s100-c-k-no/photo.jpg",
         folder=True )
 
     plugintools.add_item( 
         #action="", 
-        title="Ancient Aliens Season 2",
+        title="*Ancient Aliens Season 1 - 10",
         url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_32+"/",
         thumbnail=icon,
         folder=True )
 
     plugintools.add_item( 
         #action="", 
-        title="Ancient Aliens Season 3",
-        url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_33+"/",
-        thumbnail=icon,
+        title="Jesse Ventura Off The Grid",
+        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID_33+"/",
+        thumbnail="https://yt3.ggpht.com/-xA9bGVn0C78/AAAAAAAAAAI/AAAAAAAAAAA/4g6_j2bctyg/s100-c-k-no/photo.jpg",
         folder=True )
 
     plugintools.add_item( 
         #action="", 
-        title="Ancient Aliens Season 4",
-        url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_34+"/",
-        thumbnail=icon,
+        title="ConspiracyScope",
+        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID_34+"/",
+        thumbnail="https://yt3.ggpht.com/-09O4fhWufxs/AAAAAAAAAAI/AAAAAAAAAAA/8WWyDX9aZxc/s100-c-k-no/photo.jpg",
         folder=True )
 
     plugintools.add_item( 
         #action="", 
-        title="Ancient Aliens Season 5",
-        url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_35+"/",
-        thumbnail=icon,
+        title="Corbett Report",
+        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID_35+"/",
+        thumbnail="https://yt3.ggpht.com/-18ENytFD7iY/AAAAAAAAAAI/AAAAAAAAAAA/nmL5kOfqUsw/s100-c-k-no/photo.jpg",
         folder=True )
 
     plugintools.add_item( 
         #action="", 
-        title="Ancient Aliens Season 6",
-        url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_36+"/",
-        thumbnail=icon,
+        title="Global Research TV",
+        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID_36+"/",
+        thumbnail="https://yt3.ggpht.com/-OMtBL31Dxto/AAAAAAAAAAI/AAAAAAAAAAA/fq8dVNI5eVo/s100-c-k-no/photo.jpg",
         folder=True )
 
     plugintools.add_item( 
         #action="", 
-        title="Ancient Aliens Season 7",
-        url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_37+"/",
-        thumbnail=icon,
+        title="Matrix World Disclosure",
+        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID_37+"/",
+        thumbnail="https://yt3.ggpht.com/-AGKrpHpcyMw/AAAAAAAAAAI/AAAAAAAAAAA/dfGm4Mtr8EY/s100-c-k-no/photo.jpg",
         folder=True )
 
     plugintools.add_item( 
         #action="", 
-        title="Ancient Aliens Season 8",
-        url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_38+"/",
-        thumbnail=icon,
+        title="EyezOpenWyde",
+        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID_38+"/",
+        thumbnail="https://yt3.ggpht.com/-Pt0z08U7jmc/AAAAAAAAAAI/AAAAAAAAAAA/Oiok6hZaVEY/s100-c-k-no/photo.jpg",
         folder=True )
 
     plugintools.add_item( 
@@ -372,7 +372,7 @@ def main_list(params):
     plugintools.add_item( 
         #action="", 
         title="Aliens Moon Truth Exposed",
-        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_41+"/",
+        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID_41+"/",
         thumbnail="https://yt3.ggpht.com/-fY_zbuo3qWI/AAAAAAAAAAI/AAAAAAAAAAA/BH9Z3TiwQs8/s100-c-k-no-mo/photo.jpg",
         folder=True )
 
@@ -386,7 +386,7 @@ def main_list(params):
     plugintools.add_item( 
         #action="", 
         title="(Leonard Nimoy)In Search Of ",
-        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_43+"/",
+        url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_43+"/",
         thumbnail="https://yt3.ggpht.com/-hsZUv5hqBNY/AAAAAAAAAAI/AAAAAAAAAAA/R0wsx3RntNI/s100-c-k-no/photo.jpg",
         folder=True )
 
@@ -407,7 +407,7 @@ def main_list(params):
     plugintools.add_item( 
         #action="", 
         title="Annunaki Radio",
-        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_46+"/",
+        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID_46+"/",
         thumbnail="https://yt3.ggpht.com/-k0YKCFnbkbA/AAAAAAAAAAI/AAAAAAAAAAA/LOg2nkS5B8k/s100-c-k-no/photo.jpg",
         folder=True )
 

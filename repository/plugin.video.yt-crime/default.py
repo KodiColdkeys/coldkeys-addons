@@ -27,14 +27,14 @@ YOUTUBE_CHANNEL_ID_5 = "UCSX7Y8k0PCOgUgmOdd6RkQw"
 YOUTUBE_CHANNEL_ID_6 = "UCiRnIG5jwSsIVnx7USPXTMQ"
 YOUTUBE_CHANNEL_ID_7 = "PLEk3_2u_nF_ehgM3TFhi9j2hMXnoDTSqR"
 YOUTUBE_CHANNEL_ID_8 = "PLyLrnNOEPdo430q3kcZmUHtbbPfv4vycg"
-YOUTUBE_CHANNEL_ID_9 = "BestArabic100"
+YOUTUBE_CHANNEL_ID_9 = "UCOE7RpnX-z1XtmViWvf83WA"
 YOUTUBE_CHANNEL_ID_10 = "PLNlKG_zAzFm63zTKqzp2LqNZBazpjDCFM"
-YOUTUBE_CHANNEL_ID_11 = "xxxDarkestHoursxxx"
-YOUTUBE_CHANNEL_ID_12 = "DarkestRedux"
+YOUTUBE_CHANNEL_ID_11 = "UCXRPr7_0bnIKFVFQRODAV2g"
+YOUTUBE_CHANNEL_ID_12 = "UCwQei10QoLUmFNBaH2JBhww"
 YOUTUBE_CHANNEL_ID_13 = "UC03LFzB8W8OD16zfgPqxlFQ"
 YOUTUBE_CHANNEL_ID_14 = "UCg_jR8pdBfrsw3fPOApWsxw"
 YOUTUBE_CHANNEL_ID_15 = "UCvQhPN4r4bAauI0dJo71lyA"
-YOUTUBE_CHANNEL_ID_16 = "TheCriminalPress"
+YOUTUBE_CHANNEL_ID_16 = "UCB34HtBACNAhMKG42_msPJA"
 YOUTUBE_CHANNEL_ID_17 = "PL4HLZHMq05jAiYLlIxWiwoXmEDBbIavBK"
 YOUTUBE_CHANNEL_ID_18 = "PL30kO8oVeDkpdNVGciv4YPyL1k4IXiEIF"
 YOUTUBE_CHANNEL_ID_19 = "PLdiXEhyBHpfWCGocPNSk5Mhtjsh41PsUS"
@@ -50,7 +50,7 @@ YOUTUBE_CHANNEL_ID_28 = "PL1T-A-PVavLLc9-gnyzVmcnpqMUilPe5C"
 YOUTUBE_CHANNEL_ID_29 = "PLPXjjzBAKhFOa5F-S9qAYWDc7SfQzWXm4"
 YOUTUBE_CHANNEL_ID_30 = "PL152bjytsMC4BOcSOdvFFuJZwWXam8FZF"
 YOUTUBE_CHANNEL_ID_31 = "PLdegvhPRrKSuKuqI4IH7nWk-_SCAH9VyX"
-YOUTUBE_CHANNEL_ID_32 = "ForensicFilesChannel"
+YOUTUBE_CHANNEL_ID_32 = "UCPar4XXTkknIRtj-JSjiddw"
 YOUTUBE_CHANNEL_ID_33 = "PL48544492E92EEE46"
 YOUTUBE_CHANNEL_ID_34 = "PL152bjytsMC5IEbzo4L3uddop8YvCyeXw"
 YOUTUBE_CHANNEL_ID_35 = "PLuiMMfezGgfZ9R0gXNosCAB63YcZ4N1IG"
@@ -58,9 +58,9 @@ YOUTUBE_CHANNEL_ID_36 = "PL6jkDCwMt49kGNtYI5ZiqexAuTaa7xdqP"
 YOUTUBE_CHANNEL_ID_37 = "PLUQCcRUCOfXbn5ushxnuWKRm8wZ2ZLtRA"
 YOUTUBE_CHANNEL_ID_38 = "PLMJCZB0MS5-N1ZvlfGRvEVCLjTWa4j_mI"
 YOUTUBE_CHANNEL_ID_39 = "PLFp4v4wRLrbyYlimv-IU7MlOjHkWdWO1T"
-YOUTUBE_CHANNEL_ID_40 = "FilmRiseTrueCrime"
+YOUTUBE_CHANNEL_ID_40 = "UCU4BHh9Dwfd7-I_xTZ5037Q"
 YOUTUBE_CHANNEL_ID_41 = "UCdTD-C4s538Z-VGfaaeYh4w"
-YOUTUBE_CHANNEL_ID_42 = "MedicalDetectivesTV"
+YOUTUBE_CHANNEL_ID_42 = "UCVBTlb6_rQkWY99ZKi2oBMw"
 YOUTUBE_CHANNEL_ID_43 = "PL3E3xn5BmG284rjx3DWakZgXOM4RTj6nJ"
 YOUTUBE_CHANNEL_ID_44 = "PLuDCbxChmO1jpI3cVtJ7YYwwmUfcJvxPU"
 YOUTUBE_CHANNEL_ID_45 = "PLC4mqmKvz1IYJGKCi6Vt7vojtGs5XJMIU"
@@ -148,9 +148,9 @@ def main_list(params):
 
     plugintools.add_item( 
         #action="", 
-        title="DATELiNE 48 HOURS MYSTERY",
-        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_9+"/",
-        thumbnail="https://yt3.ggpht.com/-Xi_K4pdhxsQ/AAAAAAAAAAI/AAAAAAAAAAA/YJy8Jf4FG7s/s100-c-k-no/photo.jpg",
+        title="48 Hours Mystery Archive",
+        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID_9+"/",
+        thumbnail="https://yt3.ggpht.com/-X2EMnclj_uc/AAAAAAAAAAI/AAAAAAAAAAA/sO4g5jIyEf8/s100-c-k-no/photo.jpg",
         folder=True )
 
     plugintools.add_item( 
@@ -163,15 +163,15 @@ def main_list(params):
     plugintools.add_item( 
         #action="", 
         title="Darkest Hour",
-        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_11+"/",
+        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID_11+"/",
         thumbnail="https://yt3.ggpht.com/-HhEa5O3_cHQ/AAAAAAAAAAI/AAAAAAAAAAA/NtCPT_ZQJKI/s100-c-k-no/photo.jpg",
         folder=True )    
 
     plugintools.add_item( 
         #action="", 
-        title="Dark Redux",
-        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_12+"/",
-        thumbnail="https://yt3.ggpht.com/--SYXynyXBqA/AAAAAAAAAAI/AAAAAAAAAAA/qcATxhtqh9o/s100-c-k-no/photo.jpg",
+        title="Crime Inc",
+        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID_12+"/",
+        thumbnail="https://yt3.ggpht.com/-nZfQCn4jCx0/AAAAAAAAAAI/AAAAAAAAAAA/ccP0Bt1WZ1A/s100-c-k-no/photo.jpg",
         folder=True )  
 
     plugintools.add_item( 
@@ -198,7 +198,7 @@ def main_list(params):
     plugintools.add_item( 
         #action="", 
         title="Criminal Investigations",
-        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_16+"/",
+        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID_16+"/",
         thumbnail="https://yt3.ggpht.com/-7yVxzENnGLc/AAAAAAAAAAI/AAAAAAAAAAA/bhBtqb5_xOs/s100-c-k-no/photo.jpg",
         folder=True )
 
@@ -310,7 +310,7 @@ def main_list(params):
     plugintools.add_item( 
         #action="", 
         title="Forensic Files (check playlists)",
-        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_32+"/",
+        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID_32+"/",
         thumbnail="https://yt3.ggpht.com/-KQgZxaYcLJY/AAAAAAAAAAI/AAAAAAAAAAA/LsYKB4ZuTDA/s100-c-k-no/photo.jpg",
         folder=True )  
 
@@ -366,7 +366,7 @@ def main_list(params):
     plugintools.add_item( 
         #action="", 
         title="FilmRise True Crime (check playlists)",
-        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_40+"/",
+        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID_40+"/",
         thumbnail="https://yt3.ggpht.com/-HE_576ROmGc/AAAAAAAAAAI/AAAAAAAAAAA/LpK4lKvntfQ/s100-c-k-no/photo.jpg",
         folder=True )
 
@@ -380,7 +380,7 @@ def main_list(params):
     plugintools.add_item( 
         #action="", 
         title="Medical Detectives (check playlists)",
-        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_42+"/",
+        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID_42+"/",
         thumbnail="https://yt3.ggpht.com/-bq84y35JFGI/AAAAAAAAAAI/AAAAAAAAAAA/9XP96zHgkfQ/s100-c-k-no/photo.jpg",
         folder=True )
 

@@ -1,0 +1,4 @@
+[B]Version 1.0.0[/B]
+September 2015 - This is the first release of my Kodi Help youtube playlists addon.
+[B]Version 2.0.0[/B]
+19 February 2016 - Updated due to YouTube changes. Increased from 10 to 20 channels.

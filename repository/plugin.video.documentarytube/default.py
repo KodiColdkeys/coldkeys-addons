@@ -26,7 +26,7 @@ YOUTUBE_CHANNEL_ID_4 = "UC3HohuFUk2IyjweMKagufQw"
 YOUTUBE_CHANNEL_ID_5 = "UCgLTuWANjVycg1qYHYPxmnA"
 YOUTUBE_CHANNEL_ID_6 = "PL152bjytsMC6bL6e5QJHXCdL1VDtI2Boc"
 YOUTUBE_CHANNEL_ID_7 = "PL152bjytsMC5YyK8CzZjXJi2IGG1f6iRM"
-YOUTUBE_CHANNEL_ID_8 = "DocumentaryTV3"
+YOUTUBE_CHANNEL_ID_8 = "UCL91Ecf92IKtNII7trSNJNw"
 YOUTUBE_CHANNEL_ID_9 = "PL152bjytsMC5DJj7z8WHQn5gDPmOt9P5F"
 YOUTUBE_CHANNEL_ID_10 = "PL152bjytsMC6yQ1XXF1ia2B0YttPeKtfN"
 YOUTUBE_CHANNEL_ID_11 = "PL152bjytsMC7T0Q7xHWHHiP5Y7dJLRWiG"
@@ -46,7 +46,7 @@ YOUTUBE_CHANNEL_ID_24 = "PL152bjytsMC7yGJjC2GYuXvLaXpn7wcZh"
 YOUTUBE_CHANNEL_ID_25 = "PL152bjytsMC5qxzVA7n3akfcyEHJbs4Zf"
 YOUTUBE_CHANNEL_ID_26 = "PL152bjytsMC63t1OVqxWnNwcltfgqw8-l"
 YOUTUBE_CHANNEL_ID_27 = "PL152bjytsMC4DDsA9uPfdgUwSMFIN4m91"
-YOUTUBE_CHANNEL_ID_28 = "TheDocumenteriesTube"
+YOUTUBE_CHANNEL_ID_28 = "UC_sXrcURB-Dh4az_FveeQ0Q"
 YOUTUBE_CHANNEL_ID_29 = "UCTrlOONARMd9tOcb7JRqbqA"
 YOUTUBE_CHANNEL_ID_30 = "PL152bjytsMC5ngZrzFYlxo5pDcsdnEpUL"
 YOUTUBE_CHANNEL_ID_31 = "UCvs65qsrweZucm7LiTrP36Q"
@@ -57,18 +57,18 @@ YOUTUBE_CHANNEL_ID_35 = "PL152bjytsMC7LOywCqqnM0K8hyWm1odA6"
 YOUTUBE_CHANNEL_ID_36 = "PL152bjytsMC570vWFnqiPV18SoY1WRhEo"
 YOUTUBE_CHANNEL_ID_37 = "UC7fqBPLcdQf5VW_PRa_hlow"
 YOUTUBE_CHANNEL_ID_38 = "PL152bjytsMC4aVhkFZxwSKkA5lIq_-yrw"
-YOUTUBE_CHANNEL_ID_39 = "FreeDocumentary"
-YOUTUBE_CHANNEL_ID_40 = "2013theevolution"
-YOUTUBE_CHANNEL_ID_41 = "PublicResourceOrg"
+YOUTUBE_CHANNEL_ID_39 = "UCFM1fgpFGwIl7DeuWE8RkuQ"
+YOUTUBE_CHANNEL_ID_40 = "UCM2YmsRUeIbRkqjgNm0eTGQ"
+YOUTUBE_CHANNEL_ID_41 = "UCO9Q5_D6tItyoilmDogexng"
 YOUTUBE_CHANNEL_ID_42 = "PL152bjytsMC7-a0JyfzLdiMXsG0QDd96d"
 YOUTUBE_CHANNEL_ID_43 = "PL152bjytsMC4ar0GTAXQ6ycBoOTlZR10w"
-YOUTUBE_CHANNEL_ID_44 = "UCS4XZSx4ZnW6Zdg4Iwes2tw"
+YOUTUBE_CHANNEL_ID_44 = "PL152bjytsMC5DA49bjZv2I089Tc8frdaR"
 YOUTUBE_CHANNEL_ID_45 = "UCdXKzUSbFZyBFt1h2LjjvsQ"
 YOUTUBE_CHANNEL_ID_46 = "PL152bjytsMC5MRutIMrbBCFcc5EGAre0t"
 YOUTUBE_CHANNEL_ID_47 = "PL152bjytsMC70yAAW7ryCt0o63EQ71Vjg"
 YOUTUBE_CHANNEL_ID_48 = "PL152bjytsMC6GTxge816-PC_H5Ai9rYhD"
-YOUTUBE_CHANNEL_ID_49 = "travelfilmarchive"
-YOUTUBE_CHANNEL_ID_50 = "ExpozaTravel"
+YOUTUBE_CHANNEL_ID_49 = "UCk8pVOnlzByean1RmUJOeCw"
+YOUTUBE_CHANNEL_ID_50 = "UCetpfrEDE4AgKEu4vYdwMGQ"
 
 
 # Entry point
@@ -142,7 +142,7 @@ def main_list(params):
     plugintools.add_item( 
         #action="", 
         title="Documentaries Channel",
-        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_8+"/",
+        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID_8+"/",
         thumbnail="https://yt3.ggpht.com/-SRDKHzWBuNk/AAAAAAAAAAI/AAAAAAAAAAA/CGLHgSvtvr8/s100-c-k-no/photo.jpg",
         folder=True )
 
@@ -282,7 +282,7 @@ def main_list(params):
     plugintools.add_item( 
         #action="", 
         title="Documentary Tube",
-        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_28+"/",
+        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID_28+"/",
         thumbnail="https://yt3.ggpht.com/-S-vFfo9ZEQw/AAAAAAAAAAI/AAAAAAAAAAA/p11UQUOJPiY/s100-c-k-no/photo.jpg",
         folder=True )
 
@@ -358,22 +358,22 @@ def main_list(params):
 
     plugintools.add_item( 
         #action="", 
-        title="Free Documentary",
-        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_39+"/",
-        thumbnail="https://yt3.ggpht.com/-xGcEJSHBKus/AAAAAAAAAAI/AAAAAAAAAAA/IJI0ipFmAhE/s100-c-k-no/photo.jpg",
+        title="Documentary and Life HD",
+        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID_39+"/",
+        thumbnail="https://yt3.ggpht.com/-Wiyi4I9ZjIw/AAAAAAAAAAI/AAAAAAAAAAA/SCa3UpHccwo/s100-c-k-no/photo.jpg",
         folder=True ) 
 
     plugintools.add_item( 
         #action="", 
-        title="The Evolution Documentaries",
-        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_40+"/",
-        thumbnail="https://yt3.ggpht.com/-2B74_w1maFo/AAAAAAAAAAI/AAAAAAAAAAA/wZ9-vmucJ_s/s100-c-k-no/photo.jpg",
+        title="Journeyman Pictures",
+        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID_40+"/",
+        thumbnail="https://yt3.ggpht.com/-Xs83JYB4N28/AAAAAAAAAAI/AAAAAAAAAAA/Fr6y4xA5VVA/s100-c-k-no/photo.jpg",
         folder=True )
 
     plugintools.add_item( 
         #action="", 
         title="PublicResourceOrg (Check Playlist)",
-        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_41+"/",
+        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID_41+"/",
         thumbnail="https://i.ytimg.com/i/X1nmhI_px297r0xp4cJBlg/mq1.jpg",
         folder=True )
 
@@ -393,8 +393,8 @@ def main_list(params):
 
     plugintools.add_item( 
         #action="", 
-        title="Homes Under the Hammer",
-        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID_44+"/",
+        title="*Homes Under the Hammer",
+        url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_44+"/",
         thumbnail="https://i.ytimg.com/i/DBVByX8tNTae_OOaGSBjGA/mq1.jpg",
         folder=True )
 
@@ -429,14 +429,14 @@ def main_list(params):
     plugintools.add_item( 
         #action="", 
         title="Travel Film Archive (See Playlists)",
-        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_49+"/",
+        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID_49+"/",
         thumbnail="https://yt3.ggpht.com/-74-csLJDn5M/AAAAAAAAAAI/AAAAAAAAAAA/GBzNH6PB-zs/s100-c-k-no/photo.jpg",
         folder=True )
 
     plugintools.add_item( 
         #action="", 
-        title="Expoza Travel Guides (See Playlists)",
-        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_50+"/",
-        thumbnail="https://yt3.ggpht.com/-ToJC-Kjpct8/AAAAAAAAAAI/AAAAAAAAAAA/nQ9pruK5N10/s100-c-k-no/photo.jpg",
+        title="Planet Doc",
+        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID_50+"/",
+        thumbnail="https://yt3.ggpht.com/-jSIGfZAjyTk/AAAAAAAAAAI/AAAAAAAAAAA/dvaLu4krnwI/s100-c-k-no/photo.jpg",
         folder=True )
 run()

@@ -29,7 +29,7 @@
 
 <addon id="plugin.video.documentarytube"
 	name="DocumentaryTube"
-	version="1.0.0"
+	version="1.1.0"
 	provider-name="coldkeys">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -48,9 +48,30 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.fishingtube"
+	name="Fishing Tube"
+	version="1.0.0"
+	provider-name="coldkeys">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Fishing Documentaries on YouTube</summary>
+    <description lang="en">Thousands of Fishing Documentaries, Blogs, Instructional and Video Magazines on YouTube.</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
 <addon id="plugin.video.historytube"
 	name="History Tube"
-	version="1.0.0"
+	version="1.1.0"
 	provider-name="coldkeys">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -69,9 +90,30 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.horrortube"
+	name="HorrorTube"
+	version="1.0.0"
+	provider-name="coldkeys">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Horror Movies, TV Shows and Trailers</summary>
+    <description lang="en">Thousands of Horror Movies, TV Shows and Trailers on YouTube.</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
 <addon id="plugin.video.jesseventura"
 	name="Jesse Ventura on YouTube"
-	version="1.0.0"
+	version="1.1.0"
 	provider-name="coldkeys">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -92,7 +134,7 @@
 
 <addon id="plugin.video.kids-tube"
 	name="Kids Tube"
-	version="1.0.1"
+	version="2.0.0"
 	provider-name="coldkeys">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -113,7 +155,7 @@
 
 <addon id="plugin.video.kodihelp"
 	name="Kodi Help"
-	version="1.0.0"
+	version="2.0.0"
 	provider-name="coldkeys">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -134,7 +176,7 @@
 
 <addon id="plugin.video.mosthaunted"
 	name="Most Haunted"
-	version="1.0.0"
+	version="1.2.0"
 	provider-name="coldkeys">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -154,8 +196,8 @@
 </addon>
 
 <addon id="plugin.video.movieyoutube"
-	name="Movies on YouTube"
-	version="1.0.0"
+	name="MoviesTube"
+	version="2.0.0"
 	provider-name="coldkeys">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -167,7 +209,7 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Movie Channels addon</summary>
-    <description lang="en">Movie Channels on YouTube.</description>
+    <description lang="en">Thousands of Movies on YouTube.</description>
     <platform>all</platform>
     <forum>n/a</forum>
     <website>n/a</website>
@@ -176,7 +218,7 @@
 
 <addon id="plugin.video.outofthisworld"
 	name="Out of this World"
-	version="1.1.0"
+	version="1.2.0"
 	provider-name="coldkeys">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -189,6 +231,27 @@
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Out of this World</summary>
     <description lang="en">Documentary youtube channels.</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.renegadesdarts"
+	name="Renegades Darts"
+	version="2.1.0"
+	provider-name="Coldkeys/AP">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Renegades Darts</summary>
+    <description lang="en">PDC and BDO darts on YouTube</description>
     <platform>all</platform>
     <forum>n/a</forum>
     <website>n/a</website>
@@ -302,7 +365,7 @@
 
 <addon id="plugin.video.yt-crime"
 	name="CrimeTube"
-	version="1.0.0"
+	version="1.2.0"
 	provider-name="coldkeys">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -344,7 +407,7 @@
 
 <addon id="plugin.video.yt-vevo"
 	name="Vevo Music Videos on YouTube"
-	version="1.0.2"
+	version="1.1.0"
 	provider-name="coldkeys">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -363,8 +426,8 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.ytsf"
-	name="Science Fiction Movies"
+<addon id="plugin.video.ytrock"
+	name="Rock Music on YouTube"
 	version="1.0.0"
 	provider-name="coldkeys">
   <requires>
@@ -376,17 +439,17 @@
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Science Fiction Movies</summary>
-    <description lang="en">Science Fiction Movies on YouTube</description>
+    <summary lang="en">Rock Music</summary>
+    <description lang="en">Rock Music on YouTube</description>
     <platform>all</platform>
     <forum>n/a</forum>
     <website>n/a</website>
   </extension>
 </addon>
 
-<addon id="plugin.video.ytwesterns"
-	name="Western Movies on YouTube"
-	version="1.0.1"
+<addon id="plugin.video.ytsf"
+	name="SciFiTube"
+	version="2.0.0"
 	provider-name="coldkeys">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -397,23 +460,44 @@
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Western Movie Channels addon</summary>
-    <description lang="en">Western Movie Channels on YouTube.</description>
+    <summary lang="en">Science Fiction Movies</summary>
+    <description lang="en">Science Fiction Movies, TV shows and Audio on YouTube.</description>
     <platform>all</platform>
     <forum>n/a</forum>
     <website>n/a</website>
   </extension>
 </addon>
 
-<addon id="repository.coldkeys" name="ColdKeys Repo" version="1.0.0" provider-name="husham.com">
+<addon id="plugin.video.ytwesterns"
+	name="Westerns Tube"
+	version="2.0.0"
+	provider-name="coldkeys">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Western Movies and TV Shows</summary>
+    <description lang="en">Western Movies and TV Shows on YouTube.</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
+<addon id="repository.coldkeys" name="ColdKeys Repo" version="1.0.0" provider-name="coldkeys">
 	<extension point="xbmc.addon.repository" name="ColdKeys Repository">
 		<info compressed="false">https://raw.githubusercontent.com/KodiColdkeys/coldkeys-addons/master/repository/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/KodiColdkeys/coldkeys-addons/master/repository/addons.xml.md5</checksum>
 		<datadir zip="true">https://raw.githubusercontent.com/KodiColdkeys/coldkeys-addons/master/zip</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary>The Husham.com Repo</summary>
-		<description>Download and install addons from husham.com repo</description>
+		<summary>Coldkeys Repo</summary>
+		<description>Download and install addons from Coldkeys repo</description>
 		<platform>all</platform>
 	</extension>
 </addon>

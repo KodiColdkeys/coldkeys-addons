@@ -34,9 +34,7 @@ YOUTUBE_CHANNEL_ID_12 = "PL9PCUr0Stw6-EOhDeUvvj-6nH6ouPdYJl"
 YOUTUBE_CHANNEL_ID_13 = "PLurs-HetJcxlfdOVEfoEYt9FhUEqFrolk"
 YOUTUBE_CHANNEL_ID_14 = "PL3CD837F7930EF545"
 YOUTUBE_CHANNEL_ID_15 = "PLxdHf9vy34LkaY7xrmvGviMkH4bLoDwh-"
-YOUTUBE_CHANNEL_ID_16 = "MostHauntedVideos"
-YOUTUBE_CHANNEL_ID_17 = "PLC13D4A50CEB9EF13"
-YOUTUBE_CHANNEL_ID_18 = "PLF6B33883B9DF71FA"
+YOUTUBE_CHANNEL_ID_16 = "UCLl5DuQifCYReW0b5IomM5w"
 
 # Entry point
 def run():
@@ -61,125 +59,111 @@ def main_list(params):
         #action="", 
         title="Seasons 1 -3",
         url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_1+"/",
-        thumbnail="http://images2.fanpop.com/image/category/www/17200_100_100.jpg",
+        thumbnail=icon,
         folder=True )
 
     plugintools.add_item( 
         #action="", 
         title="Seasons 4 - 6",
         url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_2+"/",
-        thumbnail="http://images2.fanpop.com/image/category/www/17200_100_100.jpg",
+        thumbnail=icon,
         folder=True )
 
     plugintools.add_item( 
         #action="", 
         title="Seasons 7 - 9",
         url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_3+"/",
-        thumbnail="http://images2.fanpop.com/image/category/www/17200_100_100.jpg",
+        thumbnail=icon,
         folder=True )
 
     plugintools.add_item( 
         #action="", 
         title="Seasons 10 - 12",
         url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_4+"/",
-        thumbnail="http://images2.fanpop.com/image/category/www/17200_100_100.jpg",
+        thumbnail=icon,
         folder=True )
 
     plugintools.add_item( 
         #action="", 
         title="Season 13",
         url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_5+"/",
-        thumbnail="http://images2.fanpop.com/image/category/www/17200_100_100.jpg",
+        thumbnail=icon,
         folder=True )
 
     plugintools.add_item( 
         #action="", 
         title="Season 14",
         url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_6+"/",
-        thumbnail="http://images2.fanpop.com/image/category/www/17200_100_100.jpg",
+        thumbnail=icon,
         folder=True )
         
     plugintools.add_item( 
         #action="", 
         title="Season 15 - The Live Series",
         url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_7+"/",
-        thumbnail="http://images2.fanpop.com/image/category/www/17200_100_100.jpg",
+        thumbnail="special://home/addons/plugin.video.mosthaunted/resources/live.jpg",
         folder=True )
 
     plugintools.add_item( 
         #action="", 
         title="Season 16",
         url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_8+"/",
-        thumbnail="http://images2.fanpop.com/image/category/www/17200_100_100.jpg",
+        thumbnail=icon,
         folder=True )
 
     plugintools.add_item( 
         #action="", 
         title="Season 17",
         url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_9+"/",
-        thumbnail="http://images2.fanpop.com/image/category/www/17200_100_100.jpg",
+        thumbnail=icon,
         folder=True )
 		
     plugintools.add_item( 
         #action="", 
         title="Most Haunted Live",
         url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_10+"/",
-        thumbnail="http://images2.fanpop.com/image/category/www/17200_100_100.jpg",
+        thumbnail="special://home/addons/plugin.video.mosthaunted/resources/live.jpg",
         folder=True )
 		
     plugintools.add_item( 
         #action="", 
         title="Most Haunted Unseen",
         url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_11+"/",
-        thumbnail="http://images2.fanpop.com/image/category/www/17200_100_100.jpg",
+        thumbnail="special://home/addons/plugin.video.mosthaunted/resources/unseen.jpg",
         folder=True )
 		
     plugintools.add_item( 
         #action="", 
         title="Best of Most Haunted Live",
         url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_12+"/",
-        thumbnail="http://images2.fanpop.com/image/category/www/17200_100_100.jpg",
+        thumbnail="special://home/addons/plugin.video.mosthaunted/resources/live.jpg",
         folder=True )
 		
     plugintools.add_item( 
         #action="", 
         title="Most Haunted Live The Search for Evil 2009",
         url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_13+"/",
-        thumbnail="http://images2.fanpop.com/image/category/www/17200_100_100.jpg",
+        thumbnail="special://home/addons/plugin.video.mosthaunted/resources/live.jpg",
         folder=True )
 		
     plugintools.add_item( 
         #action="", 
         title="Most Haunted Live - USA - Gettysburg",
         url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_14+"/",
-        thumbnail="http://images2.fanpop.com/image/category/www/17200_100_100.jpg",
+        thumbnail="special://home/addons/plugin.video.mosthaunted/resources/live.jpg",
         folder=True )
 		
     plugintools.add_item( 
         #action="", 
         title="NEW Most Haunted S1 2014",
         url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_15+"/",
-        thumbnail="https://yt3.ggpht.com/-MraQkEIC9eA/AAAAAAAAAAI/AAAAAAAAAAA/eokQsGnsSwg/s100-c-k-no/photo.jpg",
+        thumbnail="special://home/addons/plugin.video.mosthaunted/resources/Most_Haunted.jpg",
         folder=True )
 		
     plugintools.add_item( 
         #action="", 
         title="Most Haunted Videos",
-        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_16+"/",
-        thumbnail="https://yt3.ggpht.com/-MraQkEIC9eA/AAAAAAAAAAI/AAAAAAAAAAA/eokQsGnsSwg/s100-c-k-no/photo.jpg",
-        folder=True )
-		
-    plugintools.add_item( 
-        #action="", 
-        title="Most Haunted Midsummer Murder Series",
-        url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_17+"/",
-        thumbnail="https://yt3.ggpht.com/-XittB9ZmCa8/AAAAAAAAAAI/AAAAAAAAAAA/1LWyutSucVg/s100-c-k-no/photo.jpg",
-        folder=True )
-				
-    plugintools.add_item( 
-        #action="", 
-        title="Most Haunted 'Specials'",
-        url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_18+"/",
-        thumbnail="https://yt3.ggpht.com/-XittB9ZmCa8/AAAAAAAAAAI/AAAAAAAAAAA/1LWyutSucVg/s100-c-k-no/photo.jpg",
+        url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID_16+"/",
+        thumbnail="special://home/addons/plugin.video.mosthaunted/resources/Most_Haunted.jpg",
         folder=True )
 run()

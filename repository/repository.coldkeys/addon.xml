@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.coldkeys" name="ColdKeys Repo" version="1.0.0" provider-name="Coldkeys">
+<addon id="repository.coldkeys" name="ColdKeys Repo" version="1.0.1" provider-name="Coldkeys">
 	<extension point="xbmc.addon.repository" name="ColdKeys Repository">
 		<info compressed="false">https://cdn.rawgit.com/KodiColdkeys/coldkeys-addons/master/repository/addons.xml</info>
 		<checksum>https://cdn.rawgit.com/KodiColdkeys/coldkeys-addons/master/repository/addons.xml.md5</checksum>

@@ -92,7 +92,7 @@
 
 <addon id="plugin.video.horrortube"
 	name="HorrorTube"
-	version="1.0.0"
+	version="1.0.1"
 	provider-name="coldkeys">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>

@@ -21,11 +21,11 @@ icon = local.getAddonInfo('icon')
 
 YOUTUBE_CHANNEL_ID_1 = "PLMYrbKMmyUBkk1g5q7pf-25FhdeBhl4_v"
 YOUTUBE_CHANNEL_ID_2 = "PLMYrbKMmyUBmUIm2utCjUowDlz82cngVp"
-YOUTUBE_CHANNEL_ID_3 = "PLMYrbKMmyUBlYBt59cD5uq2HkzCkc6hda"
-YOUTUBE_CHANNEL_ID_4 = "PLYJ3r6AEHB6oK0Clmhse5oK6-x9AfYYeg"
-YOUTUBE_CHANNEL_ID_5 = "PLqeJQVNr6CBjrmJ9uT4FvskyUy8qXfTN9"
-YOUTUBE_CHANNEL_ID_6 = "PLZxPj4ksDAuh6bM-EkdIV3-Z-IeRnhHhp"
-YOUTUBE_CHANNEL_ID_7 = "PLZxPj4ksDAuj4hawQsACxLKrI-ePQNPM5"
+YOUTUBE_CHANNEL_ID_3 = "PLMYrbKMmyUBnv8HYHpRc6nM4cNvE0a4pe"
+YOUTUBE_CHANNEL_ID_4 = "PLMYrbKMmyUBlYBt59cD5uq2HkzCkc6hda"
+YOUTUBE_CHANNEL_ID_5 = "PLYJ3r6AEHB6oK0Clmhse5oK6-x9AfYYeg"
+YOUTUBE_CHANNEL_ID_6 = "PLqeJQVNr6CBjrmJ9uT4FvskyUy8qXfTN9"
+YOUTUBE_CHANNEL_ID_7 = "PLZxPj4ksDAuh6bM-EkdIV3-Z-IeRnhHhp"
 YOUTUBE_CHANNEL_ID_8 = "PLnJp9laBeYwnuXkUN34-eb72c9-pfy7RV"
 YOUTUBE_CHANNEL_ID_9 = "PLnJp9laBeYwkKv6Fy5HbwMn_M8vparKvS"
 YOUTUBE_CHANNEL_ID_10 = "PLnJp9laBeYwk8K1YpqnnzGd8Qs2C-s5-b"
@@ -55,6 +55,7 @@ YOUTUBE_CHANNEL_ID_33 = "UChp18JEiARNLS3AHUS6gYpg"
 YOUTUBE_CHANNEL_ID_34 = "PL152bjytsMC6Dty0wlSwL2kc_MlkX9orS"
 YOUTUBE_CHANNEL_ID_35 = "PLZxPj4ksDAuhhcm0T8k3pi-BKqA8f1Fmj"
 YOUTUBE_CHANNEL_ID_36 = "PLZxPj4ksDAugQCMcEAbNcvWzRmXryIciV"
+YOUTUBE_CHANNEL_ID_37 = "PLZxPj4ksDAuj4hawQsACxLKrI-ePQNPM5"
 
 # Entry point
 def run():
@@ -91,37 +92,37 @@ def main_list(params):
 
     plugintools.add_item( 
         #action="", 
-        title="2016 Dutch Darts Masters",
+        title="2016 Coral UK Open",
         url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_3+"/",
+        thumbnail="special://home/addons/plugin.video.renegadesdarts/resources/2016 Coral UK Open.jpg",
+        folder=True )
+
+    plugintools.add_item( 
+        #action="", 
+        title="2016 Dutch Darts Masters",
+        url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_4+"/",
         thumbnail="special://home/addons/plugin.video.renegadesdarts/resources/Dutch Masters.jpg",
         folder=True )
 
     plugintools.add_item( 
         #action="", 
         title="2016 BDO World Darts Championship",
-        url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_4+"/",
+        url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_5+"/",
         thumbnail="special://home/addons/plugin.video.renegadesdarts/resources/2016 BDO WDC.jpg",
         folder=True )
 
     plugintools.add_item( 
         #action="", 
         title="2016 PDC World Championship (All in One)",
-        url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_5+"/",
+        url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_6+"/",
         thumbnail="special://home/addons/plugin.video.renegadesdarts/resources/PDC Worlds 2016.jpg",
         folder=True )
 
     plugintools.add_item( 
         #action="", 
         title="2016 PDC Unibet Masters",
-        url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_6+"/",
-        thumbnail="special://home/addons/plugin.video.renegadesdarts/resources/2016 PDC Unibet Masters.jpg",
-        folder=True )
-
-    plugintools.add_item( 
-        #action="", 
-        title="BDO World Championships 2015",
         url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_7+"/",
-        thumbnail="special://home/addons/plugin.video.renegadesdarts/resources/bdo 2015.jpg",
+        thumbnail="special://home/addons/plugin.video.renegadesdarts/resources/2016 PDC Unibet Masters.jpg",
         folder=True )
 
     plugintools.add_item( 
@@ -325,5 +326,12 @@ def main_list(params):
         title="2015 International Darts Open",
         url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_36+"/",
         thumbnail="special://home/addons/plugin.video.renegadesdarts/resources/2105 International Darts Open.jpg",
+        folder=True )
+
+    plugintools.add_item( 
+        #action="", 
+        title="BDO World Championships 2015",
+        url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_37+"/",
+        thumbnail="special://home/addons/plugin.video.renegadesdarts/resources/bdo 2015.jpg",
         folder=True )
 run()

@@ -4,3 +4,5 @@
 05 February 2016 - Updated with 2016 BDO World Darts Championship, 2016 PDC Unibet Masters & 2016 Premier League.
 [B]Version 2.1.0[/B]
 14 February 2016 - Updated with 2016 Dutch Masters
+[B]Version 2.2.0[/B]
+04 March 2016 - Updated with 2016 UK Open

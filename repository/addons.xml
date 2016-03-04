@@ -239,7 +239,7 @@
 
 <addon id="plugin.video.renegadesdarts"
 	name="Renegades Darts"
-	version="2.1.0"
+	version="2.2.0"
 	provider-name="Coldkeys/AP">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>

@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 	<addon
+        id="plugin.audio.otr"
+        name="Old Time Radio - LIVE"
+        version="1.0.0"
+        provider-name="coldkeys">
+		<requires>
+			<import addon="xbmc.python"             	version="2.1.0"/>
+			<import addon="xbmc.addon"              	version="12.1.0"/>
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="default.py">
+			<provides>audio</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en">Old Time Radio - LIVE</summary>
+			<description lang="en">Tune in to the best 24/7 old time radio stations on the net.</description>
+			<disclaimer lang="en">I do not own or publish the content delivered by the plugin. Email coldkeys@outlook.com if any stations fail or you would like a personal Radio addon. Only tested in Turkey :-)
+			</disclaimer>
+			<platform>all</platform>
+			<license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
+			<language>en</language>
+			<forum></forum>
+			<website>http://www.mygoldmusic.co.uk/</website>
+			<email></email>
+			<source>http://www.mygoldmusic.co.uk/</source>
+		</extension>
+	</addon>
+
+	<addon
         id="plugin.audio.ukexpatradio"
         name="UK Expat Radio"
         version="1.0.0"
@@ -210,6 +237,27 @@
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Movie Channels addon</summary>
     <description lang="en">Thousands of Movies on YouTube.</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.oldtimeradio"
+	name="Old Time Radio on YouTube"
+	version="1.0.0"
+	provider-name="coldkeys">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Old Time Radio</summary>
+    <description lang="en">Mammoth selection of Old Time Radio shows on YouTube.</description>
     <platform>all</platform>
     <forum>n/a</forum>
     <website>n/a</website>

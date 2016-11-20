@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.chucklevision"
+	name="Chucklevision on YouTube"
+	version="1.0.0"
+	provider-name="coldkeys">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">ChuckleVision on YouTube</summary>
+    <description lang="en">ChuckleVision episodes on YouTube.ChuckleVision is a long running British children's television series created by John Sayle and the Chuckle Brothers for the BBC. It starred Barry and Paul Elliott as The Chuckle Brothers and their older brothers, Jimmy and Brian Elliott. It ran for 292 episodes over twenty-one series from 1987 to 2009.</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>

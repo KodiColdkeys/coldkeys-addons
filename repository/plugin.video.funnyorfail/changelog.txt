@@ -1,0 +1,2 @@
+[B]Version 1.0.0[/B]
+December 2016 - This is the first release of my Funny or Fail youtube playlists addon.

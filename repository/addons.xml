@@ -412,7 +412,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.white.devil" name="[COLOR white]White Devil Streams[/COLOR]" version="1.0.1" provider-name="Biggy_Ozz">
+<addon id="plugin.video.white.devil" name="[COLOR white]White Devil Streams[/COLOR]" version="2.0.1" provider-name="Ozzy And Brettus">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.pyxbmct" version="1.1.4" />

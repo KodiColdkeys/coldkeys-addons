@@ -1,0 +1,3 @@
+[B]Version 1.0.0[/B]
+December 2016 - This is the first version of my Funny Too addon
+

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [B]Version 1.0.0[/B]
 23 December 2015 - Initial release 
 [B]Version 2.0.0[/B]
@@ -7,4 +8,15 @@
 [B]Version 2.2.0[/B]
 04 March 2016 - Updated with 2016 UK Open
 [B]Version 3.0.0[/B]
+=======
+[B]Version 1.0.0[/B]
+23 December 2015 - Initial release 
+[B]Version 2.0.0[/B]
+05 February 2016 - Updated with 2016 BDO World Darts Championship, 2016 PDC Unibet Masters & 2016 Premier League.
+[B]Version 2.1.0[/B]
+14 February 2016 - Updated with 2016 Dutch Masters
+[B]Version 2.2.0[/B]
+04 March 2016 - Updated with 2016 UK Open
+[B]Version 3.0.0[/B]
+>>>>>>> origin/master
 05 June 2017 - Converted to text file version for easy update. 2017 and many other playlists added.

@@ -450,7 +450,10 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.white.devil" version="3.5.9" name="[COLOR dodgerblue].White Devil Streams[/COLOR]" provider-name="WDS Brettus And Ozzy">
+<addon id="plugin.video.white.devil"
+	name="[COLOR dodgerblue].White Devil Streams[/COLOR]"
+	version="3.5.9"
+	provider-name="WDS Brettus And Ozzy">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" version="5.2.1" optional="true" />

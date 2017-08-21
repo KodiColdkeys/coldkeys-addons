@@ -79,7 +79,7 @@ def makeRequest(url, headers=None):
 				
 def SKindex():
     addon_log("SKindex")
-    addDir('Favorites','Favorites',4,'http://i.imgur.com/8KCLPJo.png',  FANART,'','','','')
+    addDir('Favorites','Favorites',4,'http://ultraimg.com/images/2017/07/20/GCeh.jpg',  FANART,'','','','')
     getData(_Edit.MainBase,'')
     xbmcplugin.endOfDirectory(int(sys.argv[1]))
 		
@@ -2044,7 +2044,7 @@ def addDir(name,url,mode,iconimage,fanart,description,genre,date,credits,showcon
                                     %(sys.argv[0], urllib.quote_plus(name))))
 									
             if not name in FAV:
-                contextMenu.append(('Add to Renegades Darts Favorites','XBMC.RunPlugin(%s?mode=5&name=%s&url=%s&iconimage=%s&fanart=%s&fav_mode=%s)'
+                contextMenu.append(('Add to Help Files Favorites','XBMC.RunPlugin(%s?mode=5&name=%s&url=%s&iconimage=%s&fanart=%s&fav_mode=%s)'
                          %(sys.argv[0], urllib.quote_plus(name), urllib.quote_plus(url), urllib.quote_plus(iconimage), urllib.quote_plus(fanart), mode)))
             liz.addContextMenuItems(contextMenu)
         ok=xbmcplugin.addDirectoryItem(handle=int(sys.argv[1]),url=u,listitem=liz,isFolder=True)
@@ -2317,7 +2317,7 @@ def addLink(url,name,iconimage,fanart,description,genre,date,showcontext,playlis
                     fav_params += 'playlist='+urllib.quote_plus(str(playlist).replace(',','||'))
                 if regexs:
                     fav_params += "&regexs="+regexs
-                contextMenu.append(('Add to Renegades Darts Favorites','XBMC.RunPlugin(%s)' %fav_params))
+                contextMenu.append(('Add to Help Files Favorites','XBMC.RunPlugin(%s)' %fav_params))
             liz.addContextMenuItems(contextMenu)
        
         if not playlist is None:

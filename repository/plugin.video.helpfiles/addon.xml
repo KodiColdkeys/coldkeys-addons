@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.renegadesdarts"
-       name="Renegades Darts"
-       version="3.0.1"
-       provider-name="coldkeys/AP">
+<addon id="plugin.video.helpfiles"
+       name="The Help Files"
+       version="1.0"
+       provider-name="coldkeys">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.t0mm0.common" version="2.0.0"/>
@@ -24,8 +24,11 @@
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Renegades Darts</summary>
-    <description lang="en">PDC, BDO darts and more on YouTube</description>
+    <summary lang="en">The Tech Help Files</summary>
+    <description lang="en">Help for (almost) anything Tech on YouTube. </description>
     <platform>all</platform>
+	<license>GPL-3.0</license>
+	<email>coldkeys@outlook.com</email>
+	<website>https://gitlab.com/coldkeys</website>
   </extension>
 </addon>

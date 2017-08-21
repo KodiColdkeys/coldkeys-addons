@@ -159,6 +159,7 @@
   </extension>
 </addon>
 
+<<<<<<< HEAD
 <addon id="plugin.video.funnytoo"
 	name="Funny Too"
 	version="1.0.0"
@@ -177,7 +178,7 @@
     <platform>all</platform>
   </extension>
 </addon>
-
+=======
 <addon id="plugin.video.funnytoo"
 	name="Funny Too"
 	version="1.0.0"
@@ -194,6 +195,41 @@
     <summary lang="en">Comedy Channels from YouTube</summary>
     <description lang="en">A selection of the best comedy channels on YouTube. Includes CollegeHumor, Funny or Die, Cracked and more. Want a YouTube channel added, let me know on twitter @coldkeys</description>
     <platform>all</platform>
+  </extension>
+</addon>
+>>>>>>> origin/master
+
+<addon id="plugin.video.helpfiles"
+       name="The Help Files"
+       version="1.0"
+       provider-name="coldkeys">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">The Tech Help Files</summary>
+    <description lang="en">Help for (almost) anything Tech on YouTube. </description>
+    <platform>all</platform>
+	<license>GPL-3.0</license>
+	<email>coldkeys@outlook.com</email>
+	<website>https://gitlab.com/coldkeys</website>
   </extension>
 </addon>
 
@@ -409,23 +445,33 @@
 </addon>
 
 <addon id="plugin.video.renegadesdarts"
-	name="Renegades Darts"
-	version="3.0.0"
-	provider-name="Coldkeys/AP">
+       name="Renegades Darts"
+       version="3.0.1"
+       provider-name="coldkeys/AP">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.addon.common" version="2.0.0"/>
-    <import addon="plugin.video.youtube" version="5.0.0"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Renegades Darts</summary>
-    <description lang="en">PDC and BDO darts on YouTube</description>
+    <description lang="en">PDC, BDO darts and more on YouTube</description>
     <platform>all</platform>
-    <forum>n/a</forum>
-    <website>n/a</website>
   </extension>
 </addon>
 

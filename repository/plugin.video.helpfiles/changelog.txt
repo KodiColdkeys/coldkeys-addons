@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 V1.0
+=======
+V1.0
+>>>>>>> origin/master
 Initial Release

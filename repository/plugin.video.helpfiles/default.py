@@ -79,7 +79,7 @@ def makeRequest(url, headers=None):
 				
 def SKindex():
     addon_log("SKindex")
-    addDir('Favorites','Favorites',4,'http://ultraimg.com/images/2017/07/20/GCeh.jpg',  FANART,'','','','')
+    addDir('Favorites','Favorites',4,'http://ultraimg.com/images/2017/07/20/GCZ3.jpg',  FANART,'','','','')
     getData(_Edit.MainBase,'')
     xbmcplugin.endOfDirectory(int(sys.argv[1]))
 		
